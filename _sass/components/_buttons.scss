@@ -1,0 +1,27 @@
+.button {
+	@extend .btn;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: $grid-gutter-width;
+	padding: 0 $grid-gutter-width;
+}
+
+.button-blue {
+	@include button-variant-outline($blue, transparent, $blue, $white);
+}
+.button-green {
+	@include button-variant-outline($green, transparent, $green, $white);
+}
+.button-yellow {
+	@include button-variant-outline($yellow, transparent, $yellow, $white);
+}
+.button-red {
+	@include button-variant-outline($red, transparent, $red, $white);
+}
+.button-pink {
+	@include button-variant-outline($pink, transparent, $pink, $white);
+}
+
+.button-white {
+	@include button-variant-outline($white, transparent, $white, $black);
+}
