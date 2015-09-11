@@ -1,0 +1,12 @@
+# Site settings
+title: IW Styleguide
+email: contacto@ideaworks.la
+description: IW's Styleguide.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: ideaworkssv
+github_username:  ideaworksla
+
+# Build settings
+markdown: kramdown
+exclude: ['bower_components']

@@ -1,0 +1,11 @@
+{
+  "name": "IW Styleguide",
+  "version": "0.0.1",
+  "authors": [
+    "Ricardo Ramirez <ricardo@ideaworks.la>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}
